@@ -1,6 +1,20 @@
 <template> 
-    <div id="about" class="w-screen h-full top-0 left-0 bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
-      
+    <div id="about" class="w-screen h-full flex flex-col justify-center items-center top-0 left-0 bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+      <div class="flex flex-row justify-evenly items-center w-10/12 h-4/6">
+        <div class="text-center flex flex-col justify-center items-center w-5/12 h-4/6 gap-6">
+          <h2 class="text-4xl">About Me</h2>
+            <p>
+                I am a 23 year old Full Stack Software Developer from Dorchester, England.
+
+            In my free time outside of work, I have been learning web technologies. I like working with Javascript predominantly, and in particular Nuxt.js, but can easily adapt to whatever stack is put infront of me. I have an interest in all parts of the stack, but I particularly enjoy creating frontend UI's.
+            </p>
+             </div>
+        <div class="flex flex-col justify-center items-center w-5/12 h-4/6 ">
+            <div class="border-4 border-soft-peach-100 object-fit w-4/12 h-3/6">
+                <img   src="https://dummyimage.com/800x800/000/fff"/>
+            </div>
+        </div>
+      </div>
     </div>
     
   </template>

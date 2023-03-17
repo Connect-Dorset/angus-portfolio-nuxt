@@ -1,28 +1,44 @@
 <template>
-    <div class="scroll-smooth">
+
         <header>
             <nav class="w-screen z-[100] fixed h-20 py-3 px-6 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100 flex flex-row justify-around items-center overflow-x-hidden overflow-y-hidden">
-                <h1 class="font-bold text-xl">Angus Gaukroger</h1>
+                <h1 class="font-bold text-xl">
+                    <NuxtLink to="/">
+                        Angus Gaukroger
+                    </NuxtLink>
+                </h1>
                 <div >
-                    <ul class="flex flex-row justify-between items-center gap-8">
-                        <NuxtLink to="#" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
+                    <ul class="flex flex-row justify-between items-center gap-8 font-semibold">
+                        <NuxtLink to="/" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
                         <NuxtLink to="#about" class="hover:text-mine-shaft-300 hover:cursor-pointer">About</NuxtLink >
                         <NuxtLink to="#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink >
                         <NuxtLink to="#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer">Projects</NuxtLink >
                         <NuxtLink to="#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer">Contact</NuxtLink >
                     </ul>
                 </div>
-                <button class="bg-mine-shaft-400 border-2 border-mine-shaft-400 px-4 py-2 rounded-xl">
-                    Connect Dorset
-                </button>
+                <a href="https://connectdorset.com" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
+                    My Business
+                </a>
     
             </nav>
         </header>
     
             <div class="w-screen h-screen ">
                 <slot />
+                <footer class="w-screen flex flex-col items-center justify-around py-4 gap-6 pb-28 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+                    <ul class="flex flex-row justify-between items-center gap-8 font-semibold">
+                        <NuxtLink to="/" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
+                        <NuxtLink to="#about" class="hover:text-mine-shaft-300 hover:cursor-pointer">About</NuxtLink >
+                        <NuxtLink to="#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink >
+                        <NuxtLink to="#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer">Projects</NuxtLink >
+                        <NuxtLink to="#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer">Contact</NuxtLink >
+                    </ul>
+                    &copy Angus Gaukroger - Connect Dorset
+
+                </footer>
             </div>
-    </div>
+        
+ 
     
 </template>
 
