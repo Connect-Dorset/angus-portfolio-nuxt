@@ -1,7 +1,9 @@
 <template> 
-  <div class=" w-screen h-full bg-soft-peach-100 text-mine-shaft-800 flex flex-col justify-center items-center ">
-      Test
-  </div>
+  <Hero />
+  <About />
+  <Blog />
+  <Projects />
+  <Contact />
 </template>
 
 <script setup>
