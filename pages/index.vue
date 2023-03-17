@@ -1,5 +1,5 @@
 <template> 
-  <div class="w-screen h-full ">
+  <div class="w-screen ">
     <Hero />
      <About />
     <Blog />
