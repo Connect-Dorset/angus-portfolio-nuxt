@@ -1,8 +1,8 @@
 <template> 
-    <div id="about" class="w-screen h-full flex flex-col justify-center items-center top-0 left-0 bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+    <div id="about" class="w-full h-full flex flex-col justify-center items-center top-0 left-0 bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
       <div class="flex flex-row justify-evenly items-center w-10/12 h-4/6">
         <div class="text-center flex flex-col justify-center items-center w-5/12 h-4/6 gap-6">
-          <h2 class="text-4xl">About Me</h2>
+          <h1 class="text-4xl">About Me</h1>
             <p>
                 I am a 23 year old Full Stack Software Developer from Dorchester, England.
 

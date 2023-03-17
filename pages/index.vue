@@ -1,9 +1,12 @@
 <template> 
-  <Hero />
-  <About />
-  <Blog />
-  <Projects />
-  <Contact />
+  <div class="w-screen h-full ">
+    <Hero />
+     <About />
+    <!--<Blog />
+    <Projects />
+    <Contact /> -->
+  </div>
+  
 </template>
 
 <script setup>
