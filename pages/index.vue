@@ -2,9 +2,9 @@
   <div class="w-screen h-full ">
     <Hero />
      <About />
-    <!--<Blog />
+    <Blog />
     <Projects />
-    <Contact /> -->
+    <Contact />
   </div>
   
 </template>
