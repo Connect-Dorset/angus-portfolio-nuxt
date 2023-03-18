@@ -1,12 +1,12 @@
 <template> 
-  <div class="w-screen ">
+
     <Hero />
-     <About />
+  
+    <About />
     <Blog />
     <Projects />
     <Contact />
-  </div>
-  
+
 </template>
 
 <script setup>

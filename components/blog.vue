@@ -1,6 +1,9 @@
 <template> 
-    <div id="blog" class="w-full h-screen top-0 left-0 ">
-      
+    <div id="blog" class="w-screen h-full flex flex-col justify-center items-center ">
+      <h1 class="text-4xl">Blog</h1>
+        <div class="w-screen h-5/6 flex flex-row justify-evenly items-center">
+
+        </div>
     </div>
     
   </template>

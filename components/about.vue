@@ -1,17 +1,22 @@
 <template> 
-    <div id="about" class=" h-screen flex flex-col justify-center items-center top-0 left-0 bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
-      <div class="flex flex-row justify-evenly items-center w-10/12 h-4/6">
-        <div class="text-center flex flex-col justify-center items-center w-5/12 h-4/6 gap-6">
+    <div id="about" class="h-auto md:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+      <div class="flex flex-col md:flex-row  justify-evenly items-center w-screen md:w-10/12 h-4/6">
+        <div class="text-center flex flex-col justify-center items-center w-screen px-4 md:px-0 md:w-5/12 h-4/6 gap-6">
           <h1 class="text-4xl">About Me</h1>
             <p>
-                I am a 23 year old Full Stack Software Developer from Dorchester, England.
-
-            In my free time outside of work, I have been learning web technologies. I like working with Javascript predominantly, and in particular Nuxt.js, but can easily adapt to whatever stack is put infront of me. I have an interest in all parts of the stack, but I particularly enjoy creating frontend UI's.
+                Hey! I'm Angus. Thank you for visiting my portfolio site. I am a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
+            </p>
+            <p>
+                I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
+                on my platform InglesPalMundo (It means "English for the world").
+            </p>
+            <p>
+                Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
             </p>
              </div>
-        <div class="flex flex-col justify-center items-center w-5/12 h-4/6 ">
-            <div class="border-4 border-soft-peach-100 object-fit w-4/12 h-3/6">
-                <img   src="https://dummyimage.com/800x800/000/fff"/>
+        <div class="flex flex-col justify-center items-center w-screen md:w-5/12 h-full ">
+            <div class=" scale-75 border-4  border-soft-peach-100 ">
+                <img   src="https://store.brth.uk/angus-port/IMG-20220824-WA0076.jpg"/>
             </div>
         </div>
       </div>
