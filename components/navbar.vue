@@ -1,10 +1,10 @@
 <template>
     <nav class="w-screen z-[100] top-0 fixed h-20 py-3 px-6 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100 flex flex-row justify-around items-center">
-                <h1 class="font-semibold text-2xl">
+                <h2 class="font-semibold text-xl">
                     <NuxtLink to="/">
                         Angus Gaukroger
                     </NuxtLink>
-                </h1>
+                </h2>
                 <div>
                     <ul class=" hidden md:flex flex-row justify-between items-center gap-8 font-semibold">
                         <NuxtLink to="/" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
