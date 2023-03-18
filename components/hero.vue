@@ -6,7 +6,7 @@
     <div class="absolute  top-0 left-0 w-screen h-full text-left gap-5 text-mine-shaft-800 flex flex-col justify-center items-center ">
         <div class="mt-6 w-5/6 md:w-5/12 h-1/2 text-center flex flex-col justify-center gap-4">
             <h1 class="text-4xl md:text-6xl font-bold">Welcome To My Personal Portfolio<span class="text-mine-shaft-500">.</span></h1>  
-            <h2 class="text-lg md:text-2xl font-semibold ">Thanks for stopping by, come and have a look around<span class="text-mine-shaft-500">.</span></h2>
+            <h2 class="text-lg md:text-2xl font-semibold ">Grab a coffee and have a look around<span class="text-mine-shaft-500">.</span></h2>
             <div class="w-full mt-2 flex flex-row justify-center gap-5 items-center">
                 <NuxtLink to="#about" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Who Am I?</NuxtLink>
                 <NuxtLink to="#contact" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Get In Touch</NuxtLink>

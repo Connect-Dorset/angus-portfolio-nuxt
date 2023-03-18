@@ -4,18 +4,18 @@
         <div class="text-center flex flex-col justify-center items-center w-screen px-4 md:px-0 md:w-5/12 h-4/6 gap-6">
           <h1 class="text-4xl">About Me</h1>
             <p>
-                Hey! I'm Angus. Thank you for visiting my portfolio site. I am a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
+                Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
             </p>
             <p>
                 I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
-                on my platform InglesPalMundo (It means "English for the world").
+                on my platform InglesPalMundo (It means "English for the world" in Spanish).
             </p>
             <p>
                 Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
             </p>
              </div>
         <div class="flex flex-col justify-center items-center w-screen md:w-5/12 h-full ">
-            <div class=" scale-75 border-4  border-soft-peach-100 ">
+            <div class=" scale-75 border-4  border-soft-peach-100 rounded-lg ">
                 <img   src="https://store.brth.uk/angus-port/IMG-20220824-WA0076.jpg"/>
             </div>
         </div>

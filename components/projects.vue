@@ -1,5 +1,5 @@
 <template> 
-    <div id="projects" class="w-screen h-full  ">
+    <div id="projects" class="w-screen h-full bg-mine-shaft-500 ">
       
     </div>
     
