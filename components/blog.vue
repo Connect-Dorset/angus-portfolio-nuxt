@@ -10,7 +10,7 @@
         <!-- wtf -->
         <div v-for="item in blogData" class=" h-full flex flex-col justify-between py-4 px-3  bg-soft-peach-100 rounded-lg">
           <div class="w-full ">
-            <img class="border-2  border-soft-peach-100 rounded-lg" :src="item.image"/>
+            <img class="border-2  border-mine-shaft-300 rounded-lg" :src="item.image"/>
           </div>
           <div class="w-full  flex flex-row justify-evenly items-center text-center px-3 py-2 gap-4">
             <div class=" px-4  ">
@@ -38,7 +38,7 @@
   </template>
   <script setup>
     var blogData = [
-      {name: "Colombia", description: "Coffee, salsa, Carribean Coast, mountains.. This country has it all.", image: "https://store.brth.uk/angus-port/ValleDeCocura.jpg", category: "Travel", date: "06/2022"},
+      {name: "Colombia", description: "Coffee, salsa, Carribean Coast, mountains.. This country has it all.", image: "https://store.brth.uk/angus-port/ValleDeCocuraLandscape.jpg", category: "Travel", date: "06/2022"},
       {name: "Perú", description: "Land of the Incas, incredible food and all types of diverse landscapes.", image: "https://store.brth.uk/angus-port/Cajamarca.jpg", category: "Travel", date: "07/2022"},
       {name: "Ecuador", description: "A small, but super diverse country that I wish I had more time in!", image: "https://store.brth.uk/angus-port/cuenca.jpg", category: "Travel", date: "08/2022"},
       {name: "Spain", description: "My favourite country that I've visited in Europe so far!", image: "https://store.brth.uk/angus-port/Barcelona.jpg", category: "Travel", date: "03/2022"},

@@ -15,7 +15,7 @@
             </p>
              </div>
         <div class="flex flex-col justify-center items-center w-screen md:w-5/12 h-full ">
-            <div class=" scale-75 border-4  border-soft-peach-100 rounded-lg ">
+            <div class=" scale-[0.65] border-4  border-soft-peach-100 rounded-lg ">
                 <img   src="https://store.brth.uk/angus-port/IMG-20220824-WA0076.jpg"/>
             </div>
         </div>
