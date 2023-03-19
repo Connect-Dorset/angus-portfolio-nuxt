@@ -1,5 +1,5 @@
 <template> 
-    <div id="contact" class="w-screen h-full  ">
+    <div id="contact" class="w-screen h-full overflow-x-hidden ">
       
     </div>
     

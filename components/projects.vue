@@ -1,6 +1,6 @@
 <template> 
   
-    <div id="projects" class="w-full h-auto  py-5 md:h-full flex flex-col items-center justify-center  text-soft-peach-100 bg-mine-shaft-500 gap-10 ">
+    <div id="projects" class="w-full h-auto overflow-x-hidden py-5 md:h-full flex flex-col items-center justify-center  text-soft-peach-100 bg-mine-shaft-500 gap-10 ">
       <h1 class="text-5xl font-bold">Projects</h1>
       <div class="h-5/12 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4  " >        
         <div class="bg-mine-shaft-600 md:w-5/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">

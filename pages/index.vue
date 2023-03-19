@@ -1,12 +1,11 @@
 <template> 
-
-    <Hero />
-  
-    <About />
-    <Blog />
-    <Projects />
-    <Contact />
-
+    
+  <Hero />  
+  <About />
+  <Blog />
+  <Projects />
+  <Contact /> 
+    
 </template>
 
 <script setup>
