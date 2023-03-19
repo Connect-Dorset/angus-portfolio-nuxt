@@ -1,21 +1,27 @@
 <template> 
-    <div id="about" class="h-auto md:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
-      <div class="flex flex-col md:flex-row  justify-evenly items-center w-screen md:w-10/12 h-4/6">
-        <div class="text-center flex flex-col justify-center items-center w-screen px-4 md:px-0 md:w-5/12 h-4/6 gap-6">
+    <div id="about" class="h-auto py-3 md:py-0 md:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+      <div class="flex flex-col md:flex-row px-3  justify-evenly items-center w-10/12 md:w-10/12 h-full">
+        <div class="text-center bg-mine-shaft-600 rounded-lg flex flex-col justify-center items-center w-screen px-8 py-7  md:px-8 md:py-7 md:w-5/12 h-7/12 gap-6">
           <h1 class="text-4xl">About Me</h1>
-            <p>
-                Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
-            </p>
-            <p>
-                I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
-                on my platform InglesPalMundo (It means "English for the world" in Spanish).
-            </p>
-            <p>
-                Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
-            </p>
+          <p class="">
+              Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
+          </p>
+          <p class="">
+              I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
+              on my platform InglesPalMundo (It means "English for the world" in Spanish).
+          </p>
+          <p class="">
+              Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
+          </p>
+          <div class="w-full flex flex-row justify-evenly items-center gap-3">
+            <a href="" class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">My CV</a>
+            <RouterLink to="/#contact" class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Contact Me</RouterLink>
+
+          </div>
+          
              </div>
-        <div class="flex flex-col justify-center items-center w-screen md:w-5/12 h-full ">
-            <div class=" scale-[0.65] border-4  border-soft-peach-100 rounded-lg ">
+        <div class="flex flex-col justify-center items-center w-screen md:w-5/12 h-7/12 ">
+            <div class=" scale-[0.55] border-4  border-soft-peach-100 rounded-lg ">
                 <img   src="https://store.brth.uk/angus-port/IMG-20220824-WA0076.jpg"/>
             </div>
         </div>

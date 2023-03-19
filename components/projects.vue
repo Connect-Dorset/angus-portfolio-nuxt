@@ -1,7 +1,24 @@
 <template> 
-    <div id="projects" class="w-screen h-full bg-mine-shaft-500 ">
-      
+  
+    <div id="projects" class="w-full h-auto  py-5 sm:h-full flex flex-col items-center justify-center  text-soft-peach-100 bg-mine-shaft-500 gap-10 ">
+      <h1 class="text-5xl font-bold">Projects</h1>
+      <div class="h-4/6 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4 overflow-x-hidden " >        
+        <div class="bg-mine-shaft-600 md:w-5/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">
+          <h2 class="text-3xl font-bold">Connect Dorset</h2>
+          <h3 class="text-2xl font-semibold">Website Services Business</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis saepe est doloremque pariatur accusantium et sapiente vitae unde possimus animi!</p>
+          <a href="https://connectdorset.com" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Check It Out!</a>     
+        </div>
+        <div class="bg-mine-shaft-600 md:w-5/12 h-full gap-3  flex flex-col justify-center items-center text-center rounded-lg  px-7 py-8">
+          <h2 class="text-3xl font-bold">InglésPalMundo</h2>
+          <h3 class="text-2xl font-semibold">Online English Language Lessons</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui necessitatibus eaque vel neque laboriosam, iure mollitia esse natus magnam exercitationem!</p>
+          <a href="https://inglespalmundo.com" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Check It Out!</a>
+          
+        </div>
+      </div>
     </div>
+    
     
   </template>
   
