@@ -23,7 +23,7 @@
                 <strong>Date: </strong>{{ item.date }}
               </div>
             </div>
-            <button class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Read More</button>
+            <RouterLink :to="item.link" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Read More</RouterLink>
 
           </div>
    
@@ -34,10 +34,10 @@
   </template>
   <script setup>
     var blogData = [
-      {name: "Colombia", description: "Coffee, salsa, Carribean Coast, mountains.. This country has it all.", image: "https://store.brth.uk/angus-port/ValleDeCocuraLandscape.jpg", category: "Travel", date: "06/2022"},
-      {name: "Perú", description: "Land of the Incas, incredible food and all types of diverse landscapes.", image: "https://store.brth.uk/angus-port/Cajamarca.jpg", category: "Travel", date: "07/2022"},
-      {name: "Ecuador", description: "A small, but super diverse country that I wish I had more time in!", image: "https://store.brth.uk/angus-port/cuenca.jpg", category: "Travel", date: "08/2022"},
-      {name: "Spain", description: "My favourite country that I've visited in Europe so far!", image: "https://store.brth.uk/angus-port/Barcelona.jpg", category: "Travel", date: "03/2022"},
+      {name: "Colombia", description: "Coffee, salsa, Carribean Coast, mountains.. This country has it all.", image: "https://store.brth.uk/angus-port/ValleDeCocuraLandscape.jpg", link: "/blog/colombia", category: "Travel", date: "06/2022"},
+      {name: "Perú", description: "Land of the Incas, incredible food and all types of diverse landscapes.", image: "https://store.brth.uk/angus-port/Cajamarca.jpg", link: "/blog/peru", category: "Travel", date: "07/2022"},
+      {name: "Ecuador", description: "A small, but super diverse country that I wish I had more time in!", image: "https://store.brth.uk/angus-port/cuenca.jpg", link: "/blog/ecuador", category: "Travel", date: "08/2022"},
+      {name: "Spain", description: "My favourite country that I've visited in Europe so far!", image: "https://store.brth.uk/angus-port/Barcelona.jpg", link: "/blog/spain", category: "Travel", date: "03/2022"},
     ]
   </script>
   
