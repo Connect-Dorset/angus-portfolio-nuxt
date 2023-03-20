@@ -1,5 +1,5 @@
 <template> 
-    <div id="blog" class="overflow-x-hidden relative z-50 w-full h-auto py-6 md:h-full flex flex-col justify-center space-y-12 items-center ">
+    <div id="blog" class="bg-soft-peach-50 overflow-x-hidden relative z-50 w-full h-auto py-6 md:h-full flex flex-col justify-center space-y-12 items-center ">
       
       <h1 class="text-5xl font-bold text-mine-shaft-800">Blog</h1>
       <div  class="w-5/6 sm:w-4/6 md:w-5/6 gap-6 px-6 md:px-3 lg:px-5  flex flex-col md:flex-row  justify-evenly items-center overflow-x-hidden">
