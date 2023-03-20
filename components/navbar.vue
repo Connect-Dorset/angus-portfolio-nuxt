@@ -1,5 +1,5 @@
 <template>
-    <nav class="w-screen overflow-x-hidden z-[100] top-0 fixed h-20 py-3 px-6 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100 flex flex-row justify-around items-center">
+    <nav class="w-full overflow-x-hidden z-[100] top-0 fixed h-20 py-3 px-6 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100 flex flex-row justify-around items-center">
                 <h2 class="font-semibold text-xl">
                     <NuxtLink to="/">
                         Angus Gaukroger
