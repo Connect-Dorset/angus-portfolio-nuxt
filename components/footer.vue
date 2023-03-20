@@ -1,5 +1,5 @@
 <template>
-    <footer class="w-full flex flex-col items-center justify-around py-4 gap-6 pb-28 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+    <div class="w-full flex flex-col items-center justify-around py-4 gap-6 pb-28 bg-gradient-to-tr from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
         <Socials />
     
         <ul class="flex flex-row justify-between items-center gap-8 font-semibold">
@@ -11,7 +11,7 @@
     </ul>
     &copy Angus Gaukroger - Connect Dorset
 
-</footer>
+</div>
 </template>
 
 <script setup>
