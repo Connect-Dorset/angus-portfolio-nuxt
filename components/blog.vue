@@ -4,7 +4,7 @@
       <h1 class="text-5xl font-bold text-mine-shaft-800">Blog</h1>
       <div  class="w-5/6 sm:w-4/6 md:w-5/6 gap-6 px-6 md:px-3 lg:px-5  flex flex-col md:flex-row  justify-evenly items-center overflow-x-hidden">
         <!-- wtf -->
-        <div v-for="item in blogData" class=" h-full flex flex-col justify-between py-4 px-3   bg-soft-peach-100 rounded-lg">
+        <div v-for="item in blogData" class=" text-mine-shaft-800 h-full flex flex-col justify-between py-4 px-3   bg-soft-peach-100 rounded-lg">
           <div class="w-full ">
             <img class="border-2 scale-100 border-mine-shaft-300 rounded-lg" :src="item.image"/>
           </div>
