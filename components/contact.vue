@@ -1,6 +1,17 @@
 <template> 
     <div id="contact" class="w-screen h-full overflow-x-hidden ">
-      
+      <div class="flex flex-row justify-evenly items-center h-full text-mine-shaft-800">
+        <div class="h-5/12 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4  " >
+          <div class="bg-soft-peach-100 md:w-5/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum minus ratione autem asperiores atque tenetur dolores voluptates debitis error vel iure labore modi quisquam sunt hic similique, maxime reiciendis itaque!
+          </div>
+        </div>
+        <div class="h-5/12 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4  " >
+          <div class="bg-soft-peach-100 md:w-5/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In soluta quasi qui? Rerum, eius pariatur. Maiores, vel? Eaque, alias. Reprehenderit ipsam eum provident quos saepe omnis sunt unde aliquam quam.
+          </div>
+        </div>
+      </div>
     </div>
     
   </template>
