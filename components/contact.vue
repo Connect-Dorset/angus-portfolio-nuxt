@@ -1,5 +1,5 @@
 <template> 
-    <div id="contact" class=" w-full h-full overflow-x-hidden bg-soft-peach-50">
+    <div id="contact" class=" w-full h-auto md:h-full overflow-x-hidden bg-soft-peach-50">
       <div class="flex flex-row justify-evenly items-center h-full text-mine-shaft-800">
         <div class="h-5/12 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4  " >
           <div class="bg-soft-peach-100 md:w-5/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">

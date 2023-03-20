@@ -10,11 +10,11 @@
             <div class="gap-3 mb-0 flex flex-col items-center ">
               <img class="aspect-square rounded-full border-2 md:mb-3 border-mine-shaft-500"  width="20%" height="20%" src="https://store.brth.uk/angus-port/paronsquare.jpg"/>          
 
-              <h1 class="text-4xl md:text-6xl font-bold">Welcome To My Personal Portfolio<span class="text-mine-shaft-500">.</span></h1>  
-              <h2 class="text-lg md:text-2xl font-semibold ">Grab a coffee and have a look around<span class="text-mine-shaft-500">.</span></h2>
+              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl font-bold">Welcome To My Personal Portfolio<span class="text-mine-shaft-500">.</span></h1>  
+              <h2 class="text-md md:text-2xl font-semibold ">Grab a coffee and have a look around<span class="text-mine-shaft-500">.</span></h2>
               <div class="w-full mt-2 flex flex-row justify-center gap-5 items-center">
-                  <NuxtLink to="#about" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Who Am I?</NuxtLink>
-                  <NuxtLink to="#contact" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Get In Touch</NuxtLink>
+                  <NuxtLink to="#about" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-2 px-2 md:px-4 md:py-3">Who Am I?</NuxtLink>
+                  <NuxtLink to="#contact" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-2 px-2 md:px-4 md:py-3">Get In Touch</NuxtLink>
               </div>
             </div>
             
