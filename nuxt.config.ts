@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
     app: {
       head: {
-        title: 'Portfolio - Angus Gaukroger',
+        title: 'Angus Gaukroger - Software Developer',
         charset: 'utf-8',
         viewport: 'width=device-width, initial-scale=1',
         script: [
