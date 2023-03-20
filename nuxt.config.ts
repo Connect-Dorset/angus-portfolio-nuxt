@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    plugins: [
+      '~/plugins/aos.client.js'
+    ],
     modules: [
         '@nuxtjs/tailwindcss'
       ],

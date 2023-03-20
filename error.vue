@@ -10,7 +10,7 @@
 
               <h1 class="text-4xl md:text-6xl font-bold">404</h1>  
               <h2 class="text-lg md:text-2xl font-semibold ">Ay No! I think you might be lost!</h2>
-              <NuxtLink to="/" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Get Me Out Of Here!</NuxtLink>
+              <NuxtLink to="/" class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-3 px-3 md:px-4 md:py-3">Get Me Outta Here!</NuxtLink>
               
               
             </div>
@@ -20,8 +20,10 @@
     </div>
 </template>
 
-<script>
-
+<script setup>
+definePageMeta({
+    layout: 'default'
+})
 </script>
 
 <style lang="scss" scoped>
