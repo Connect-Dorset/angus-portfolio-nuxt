@@ -1,16 +1,16 @@
 <template> 
-    <div id="about" class="w-screen overflow-x-hidden h-auto py-3 md:py-0 xl:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
-      <div class="flex flex-col-reverse md:flex-row px-5 py-4 justify-evenly items-center  md:w-10/12 h-full">
-        <div class="text-center bg-mine-shaft-600 rounded-lg flex flex-col justify-center items-center w-4/5 px-8 py-7  md:px-8 md:py-7 md:w-5/12 h-7/12 gap-6">
+    <div id="about" class="w-screen  h-auto py-5 md:py-0 xl:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
+      <div class="flex flex-col-reverse md:flex-row md:px-2 lg:px-5 md:py-4 justify-evenly items-center  md:w-11/12 lg:10/12 h-full">
+        <div class="text-center bg-mine-shaft-600 rounded-lg flex flex-col justify-center items-center w-4/5 px-8  py-7  md:px-4 lg:px-8  md:py-7 md:w-5/12 h-7/12 gap-6">
           <h1 class="text-4xl">About Me</h1>
-          <p class="">
+          <p class="text-lg md:text-sm lg:text-lg xl:text-lg">
               Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
           </p>
-          <p class="">
+          <p class="text-lg md:text-sm lg:text-lg xl:text-lg">
               I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
               on my platform InglesPalMundo (It means "English for the world" in Spanish).
           </p>
-          <p class="">
+          <p class="text-lg md:text-sm lg:text-lg xl:text-lg">
               Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
           </p>
           <div class="w-full flex flex-row justify-evenly items-center gap-3">
