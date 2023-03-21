@@ -1,5 +1,4 @@
 <template> 
-    
   <Hero />  
   <About />
   <Blog />

@@ -38,12 +38,12 @@
                 
             </nav>
             <div class="h-screen w-full flex flex-col items-center">
-                <ul :class="navState ? 'flex' : 'hidden'" class=" py-3 text-soft-peach-100 h-1/2 w-full fixed z-[99] md:hidden flex-col bg-mine-shaft-600 justify-between items-center gap-2 font-semibold">
-                    <NuxtLink to="/" class="mt-10 hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
-                    <NuxtLink to="#about" class="hover:text-mine-shaft-300 hover:cursor-pointer">About</NuxtLink >
-                    <NuxtLink to="#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink >
-                    <NuxtLink to="#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer">Projects</NuxtLink >
-                    <NuxtLink to="#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer">Contact</NuxtLink >
+                <ul :class="navState ? 'flex' : 'hidden'" class="mt-20 py-4 text-soft-peach-100 h-1/2 w-full fixed z-[99] md:hidden flex-col bg-mine-shaft-600 justify-between items-center gap-2 font-semibold">
+                    <NuxtLink to="/" class=" hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Home</a></NuxtLink >
+                    <NuxtLink to="#about" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">About</a></NuxtLink >
+                    <NuxtLink to="#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Blog</a></NuxtLink >
+                    <NuxtLink to="#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Projects</a></NuxtLink >
+                    <NuxtLink to="#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Contact</a></NuxtLink >
                     <a href="https://connectdorset.com" class="flex mb-5 bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
                         My Business
                     </a>

@@ -1,5 +1,7 @@
 <template>
-    <div class="scroll-smooth">
+    <!-- <Loader @complete="loaded=true" /> -->
+
+    <div  class="scroll-smooth">
         <Navbar />
 
         <main class="w-full h-screen mx-auto">
@@ -14,6 +16,8 @@
 definePageMeta({
     layout: 'default'
 })
+var loaded = ref(false);
+
 </script>
 
 <style lang="scss" scoped>

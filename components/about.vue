@@ -8,7 +8,7 @@
           </p>
           <p  class="text-lg md:text-sm lg:text-lg xl:text-lg">
               I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
-              on my platform InglesPalMundo (It means "English for the world" in Spanish).
+              on my platform InglesPalMundo.
           </p>
           <p  class="text-lg md:text-sm lg:text-lg xl:text-lg">
               Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.

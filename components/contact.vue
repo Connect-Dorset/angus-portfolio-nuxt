@@ -1,8 +1,8 @@
 <template> 
-    <div id="contact" class=" w-full h-auto md:h-full overflow-x-hidden py-5 flex flex-col items-center bg-soft-peach-50">
+    <div id="contact" class=" w-full h-auto md:h-full overflow-x-hidden py-20 flex flex-col items-center bg-soft-peach-50">
       <h1 class="text-5xl font-bold text-mine-shaft-800">Contact</h1>     
       <div class="flex flex-col md:flex-row justify-evenly items-center h-full text-mine-shaft-800">
-        <div class="h-8/12 w-full flex flex-col md:flex-row justify-evenly items-center px-12 gap-4  " >
+        <div class="h-8/12 w-full flex flex-col md:flex-row justify-evenly items-center px-6 gap-4  " >
           <div class=" md:w-8/12 h-full gap-3 flex flex-col justify-center items-center text-center rounded-lg px-8 py-7">
             <img class=" border-4 h-full w-full border-mine-shaft-400 rounded-lg" src="https://store.brth.uk/angus-port/FootballMedellin.jpg" />
           </div>
@@ -14,7 +14,7 @@
               <label class="">Name:</label>
               <input class="col-span-2 px-3 py-2 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="What's your name?"/>
               <label>Email:</label>
-              <input class="col-span-2 px-3 py-2 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="What's your email address?"/>
+              <input class="col-span-2 px-3 py-2 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="hello@gmail.com"/>
               <label>Message:</label>
               <textarea class="col-span-2 h-40 resize-none px-3 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="Type your message here!"/>
             </div>
