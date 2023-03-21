@@ -1,7 +1,7 @@
 <template> 
     <div id="about" class="w-full  h-auto py-5 md:py-5 xl:h-screen flex flex-col justify-center items-center  bg-gradient-to-bl from-mine-shaft-600 to-mine-shaft-500 text-soft-peach-100">
       <div class="flex flex-col-reverse md:flex-row md:px-2 lg:px-5 md:py-4 justify-evenly items-center  md:w-11/12 lg:10/12 h-full">
-        <div data-aos="fade-left" aos-duration="300" class="text-center bg-mine-shaft-600 rounded-lg flex flex-col justify-center items-center w-4/5 px-8  py-7  md:px-4 lg:px-8  md:py-7 md:w-5/12 h-7/12 gap-6">
+        <div class="text-center bg-mine-shaft-600 rounded-lg flex flex-col justify-center items-center w-4/5 px-8  py-7  md:px-4 lg:px-8  md:py-7 md:w-5/12 h-7/12 gap-6">
           <h1  class="text-4xl">About Me</h1>
           <p  class="text-lg md:text-sm lg:text-lg xl:text-lg">
               Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
