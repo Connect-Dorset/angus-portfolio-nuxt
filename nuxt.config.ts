@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   plugins: [{ src: "/plugins/aos.client.js", ssr: false, mode: "client" }],
     modules: [
-        '@nuxtjs/tailwindcss'
+        '@nuxtjs/tailwindcss',
+        '@nuxtjs/axios'
       ],
     tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
