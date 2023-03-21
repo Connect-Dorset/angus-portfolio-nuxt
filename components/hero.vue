@@ -4,7 +4,7 @@
       
     </div>
     <div class="absolute overflow-x-hidden mx-auto top-0 left-0 w-full h-full text-left  text-mine-shaft-800 flex flex-col justify-center items-center ">
-        <div class=" w-5/6 md:w-5/12  text-center flex flex-col justify-center items-center">
+        <div class="mt-6 md:mt-0 w-5/6 md:w-5/12  text-center flex flex-col justify-center items-center">
       
           
             <div class="gap-3 mb-0 flex flex-col items-center ">

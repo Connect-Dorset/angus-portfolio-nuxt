@@ -17,19 +17,7 @@ export default defineNuxtConfig({
         title: 'Angus Gaukroger - Software Developer',
         charset: 'utf-8',
         viewport: 'width=device-width, initial-scale=1',
-        script: [
-          {
-            src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js",
-            body: true,
-            
-
-          },
-          {
-            src: "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js",
-            body: true,
-          }
-          
-        ]
+        
 
         // link: [
         //   {rel: stylesheet,
