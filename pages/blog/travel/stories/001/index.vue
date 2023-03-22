@@ -1,13 +1,13 @@
 <template>
     <div class="top-0 relative w-full h-auto flex flex-col justify-center items-center pt-24 px-20 gap-3">
-        <h1 class="text-4xl">I solo travelled South America</h1>
+        <h1 class="text-4xl">Introduction - I solo travelled South America</h1>
         <p>I’ll never forget how it feels. The moment you book the flight to take on an adventure that you’ve always dreamed of, completely alone. There is nothing like the sinking feeling of knowing you’ve plunged yourself in at the deep end, and now you’ve got to get on with it. 
         </p>
         <div class="flex flex-row justify-evenly items-center w-full">
             <p>
                 Sometime in early February of 2022 I pulled the trigger and booked my flight from London Heathrow to Cartagena, Colombia on the 31st of May 2022. I’d been wanting to do this for so long, and the monotony of working an office job, alongside never fully getting back to the “highs” of student life since finishing the previous year had made me desperate to take on an adventure. The COVID pandemic was coming to an end, and countries were opening up their borders. There were high amounts of uncertainty among travellers about where and how to travel in this new age, but I knew that I couldn’t wait a single moment longer.
             </p>
-            <iframe src="https://www.tiktok.com/@angus_gaukroger/video/7104693402884754694?is_from_webapp=1&sender_device=pc&web_id=7195210233014175238"/>
+            <!-- <iframe src="https://www.tiktok.com/@angus_gaukroger/video/7104693402884754694?is_from_webapp=1&sender_device=pc&web_id=7195210233014175238"/> -->
         </div>
         
         
