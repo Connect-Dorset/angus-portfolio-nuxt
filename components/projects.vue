@@ -11,7 +11,7 @@
           <a href="https://connectdorset.com" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-2 lg:px-4 lg:py-2 rounded-xl mt-3">Learn More!</a>     
         </div>
         <div class="bg-mine-shaft-600 md:w-5/12 h-full gap-3  flex flex-col justify-center items-center text-center rounded-lg  px-7 py-8">
-          <img class="border-4 border-mine-shaft-300 rounded-full" src="https://store.brth.uk/angus-port/android-chrome-512x512.png" width="30%" />
+          <img class="border-4 border-mine-shaft-300 rounded-full" src="https://store.brth.uk/angus-port/ipm.png" width="30%" />
 
           <h2 class="text-3xl font-bold">InglésPalMundo</h2>
           <h3 class="text-2xl font-semibold">Online English Language Lessons</h3>
