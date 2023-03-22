@@ -1,6 +1,6 @@
 <template>
-    <div>
-        Welcome to the software blog section.
+    <div class="w-full h-screen flex flex-col justify-center items-center">
+        Welcome to the Software blog section.
     </div>
 </template>
 

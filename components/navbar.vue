@@ -11,7 +11,7 @@
                 
                 <div>
                     <ul class=" hidden md:flex flex-row justify-between items-center gap-8 font-semibold">
-                        <NuxtLink @mouseover="blogDropdown = true" to="/" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
+                        <NuxtLink @mouseover="blogDropdown = true" to="/#home" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
                         <NuxtLink @mouseover="blogDropdown = true" to="/#about" class="hover:text-mine-shaft-300 hover:cursor-pointer">About</NuxtLink >
              
                         <NuxtLink @mouseover="blogDropdown = false" to="/#blog"   class=" hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink >
@@ -39,9 +39,9 @@
                 
                 
             </nav>
-            <!-- Dropdown -->
-            <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-2/6  z-[100]">
-                <ul @mouseover="blogDropdown=false" @mouseleave="blogDropdown=true" class="w-24 px-2 h-full flex flex-col items-center justify-evenly bg-mine-shaft-600 border-soft-peach-100   border-l-2 border-b-2 border-r-2 rounded-b-xl">
+            <!-- Blog Dropdown -->
+            <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-36  z-[100]">
+                <ul @mouseover="blogDropdown=false" @mouseleave="blogDropdown=true" class="w-24 px-2 h-full flex flex-col items-center justify-evenly bg-mine-shaft-600 border-mine-shaft-300   border-l-2 border-b-2 border-r-2 rounded-b-xl">
                     <NuxtLink @click="blogDropdown=true" to="/blog/travel" class="hover:text-mine-shaft-300 hover:cursor-pointer">Travel</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/lifestyle" class="hover:text-mine-shaft-300 hover:cursor-pointer">Lifestyle</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/software" class="hover:text-mine-shaft-300 hover:cursor-pointer">Software</NuxtLink >
@@ -50,7 +50,7 @@
             </div>
             <div class="h-screen w-full md:hidden flex flex-col items-center">
                 <ul :class="navState ? 'flex' : 'hidden'" class="mt-20 py-4 text-soft-peach-100 h-1/2 w-full fixed z-[99] md:hidden flex-col bg-mine-shaft-600 justify-between items-center gap-2 font-semibold">
-                    <NuxtLink to="/" class=" hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Home</a></NuxtLink >
+                    <NuxtLink to="/#home" class=" hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Home</a></NuxtLink >
                     <NuxtLink to="/#about" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">About</a></NuxtLink >
                     <NuxtLink to="/#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Blog</a></NuxtLink >
                     <NuxtLink to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Projects</a></NuxtLink >
