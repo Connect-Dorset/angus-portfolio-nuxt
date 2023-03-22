@@ -20,11 +20,11 @@ useHead({
     { rel: 'apple-touch-icon', sizes: '180x180', href: 'https://store.brth.uk/angus-port/apple-touch-icon.png' },
     { rel: 'manifest', href: 'https://store.brth.uk/angus-port/site.webmanifest' },
     { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://store.brth.uk/angus-port/android-chrome-192x192.png' },
-    { rel: 'icon', type: 'image/png', sizes: '512x512', href: 'https://store.brth.uk/angus-port/android-chrome-512x512.png' },
+    { rel: 'icon', type: 'image/png', sizes: '512x512', href: 'https://store.brth.uk/angus-port/newfav.png' },
     // { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
   ],
   meta: [
-    
+
   ],
   });
 definePageMeta({
