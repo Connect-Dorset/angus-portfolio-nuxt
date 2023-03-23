@@ -12,11 +12,8 @@
                   <div class="text-sm lg:text-md">
                     <strong>Date: </strong>{{date}}
                   </div>
-                  <div class="text-sm lg:text-md">
-                    <strong>Article: </strong>#{{number}}
-                  </div>
               </div>
-              <RouterLink :to="link" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">View Article</RouterLink>
+              <RouterLink :to="link" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">View Section</RouterLink>
               
         </div>
    </div>
@@ -30,7 +27,6 @@ const props = defineProps({
   category: String,
   date: String,
   link: String,
-  number: String,
 })
 </script>
 
