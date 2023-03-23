@@ -1,20 +1,21 @@
 <template>
-    <div class="w-full h-full   flex flex-col justify-center items-center px-3">
-        <h1>Articles</h1>
-        <div class="w-10/12 grid grid-cols-4 ">
-             <img class="cols-span-1 aspect-square w-full" src="https://store.brth.uk/angus-port/HorseRidingSalento.jpg" />
-             <div class="cols col-span-3">
+     <div class="absolute top-0 w-full h-auto flex flex-col justify-start items-center gap-3 px-5 pt-28 pb-20 bg-soft-peach-50">
+         <h1 class="text-4xl font-bold text-mine-shaft-800">Travel Posts</h1>
+         <div v-for="item in blogData" class="mt-3 w-full h-full flex flex-col justify-start items-center gap-4">
+             <!-- Make Dynamic -->
+             <Blogpostbubble :title="item.name" :description="item.description" :image="item.image" :category="item.category" :date="item.date" :link="item.link" />
+            
+         
+         </div>
+      </div>
+ </template>
  
-             </div>
-        </div>
+ <script setup>
+ var blogData = [
+       {name: "Travel Stories", description: "Tales from the road, surprises and amazing people.", image: "https://store.brth.uk/angus-port/GlacierNearHuarazPeru.jpg", link: "/blog/travel/stories", category: "Travel", date: "03/2022"},
+       
+ </script>
  
-     </div>
-</template>
-
-<script setup>
-
-</script>
-
-<style scoped>
-
-</style>
+ <style scoped>
+ 
+ </style>

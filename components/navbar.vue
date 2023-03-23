@@ -41,8 +41,8 @@
                 
             </nav>
             <!-- Blog Dropdown -->
-            <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-36  z-[100]">
-                <ul @mouseover="blogDropdown=false" @mouseleave="blogDropdown=true" class="w-24 px-2 h-full flex flex-col items-center justify-evenly bg-mine-shaft-600 border-mine-shaft-300   border-l-2 border-b-2 border-r-2 rounded-b-xl">
+            <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed left-6 top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-40  z-[100]">
+                <ul @mouseover="blogDropdown=false" @mouseleave="blogDropdown=true" class=" w-28 px-3 h-full flex flex-col items-start justify-evenly bg-mine-shaft-600 border-mine-shaft-300   border-l-2 border-b-2 border-r-2 rounded-b-xl">
                     <NuxtLink @click="blogDropdown=true" to="/blog/travel" class="hover:text-mine-shaft-300 hover:cursor-pointer">Travel</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/lifestyle" class="hover:text-mine-shaft-300 hover:cursor-pointer">Lifestyle</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/software" class="hover:text-mine-shaft-300 hover:cursor-pointer">Software</NuxtLink >
