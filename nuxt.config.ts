@@ -1,5 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    '/**' : {static: true},
+    // Static page generated on-demand, revalidates in background
+    '/blog/**': { swr: true },
+    // Static page generated on-demand once
+    // '/articles/**': { static: true },
+
+
+    // Add cors headers
+    '/api/v1/**': { cors: true },
+
+  },
   plugins: [{ src: "/plugins/aos.client.js", ssr: false, mode: "client" }],
     modules: [
         '@nuxtjs/tailwindcss',
