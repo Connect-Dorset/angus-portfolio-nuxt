@@ -1,5 +1,5 @@
 <template>
-    <div class="top-0 relative text-center w-full h-auto flex flex-col justify-center items-center pt-24 px-20 gap-3">
+    <div class="top-0 relative text-center w-full h-auto flex flex-col justify-center items-center pt-24 px-20 gap-3 bg-soft-peach-50 text-mine-shaft-800">
         <h1 class="text-4xl">Introduction - I solo travelled South America</h1>
         <p>I’ll never forget how it feels. The moment you book the flight to take on an adventure that you’ve always dreamed of, completely alone. There is nothing like the sinking feeling of knowing you’ve plunged yourself in at the deep end, and now you’ve got to get on with it. 
         </p>

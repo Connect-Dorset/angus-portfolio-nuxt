@@ -1,5 +1,5 @@
 <template>
-    <div class="absolute top-0 w-full h-auto flex flex-col justify-start items-center gap-3 px-5 pt-28 pb-20 bg-soft-peach-50">
+    <div class="absolute top-0 w-full h-auto flex flex-col justify-start items-center gap-3 px-5 pt-28 pb-20 bg-soft-peach-50 text-mine-shaft-800">
         <h1 class="text-4xl font-bold text-mine-shaft-800">Travel Sections</h1>
         <div v-for="item in blogData" class="mt-3 w-full h-full flex flex-col justify-start items-center gap-4">
             <!-- Make Dynamic -->
