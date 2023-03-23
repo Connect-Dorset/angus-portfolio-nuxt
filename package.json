@@ -9,6 +9,7 @@
     "start": "nuxt start"
   },
   "devDependencies": {
+    "@nuxtjs/plausible": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "nuxt": "^3.2.2"
   },

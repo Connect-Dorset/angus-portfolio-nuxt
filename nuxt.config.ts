@@ -13,10 +13,12 @@ export default defineNuxtConfig({
 
   },
   plugins: [{ src: "/plugins/aos.client.js", ssr: false, mode: "client" }],
-    modules: [
-        '@nuxtjs/tailwindcss',
-        // '@nuxtjs/axios'
-      ],
+  modules: [
+      '@nuxtjs/tailwindcss',
+      '@nuxtjs/plausible'
+      // '@nuxtjs/axios'
+    ],
+     
     tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
@@ -24,6 +26,11 @@ export default defineNuxtConfig({
     injectPosition: 0,
     viewer: true,
     },
+
+    // plausible: {
+    //   domain: 'stats.connectdorset.com'
+    // },
+    
     app: {
       head: {
         title: 'Angus Gaukroger - Software Developer',
@@ -36,8 +43,9 @@ export default defineNuxtConfig({
         // ]
 
       }
-    }
-      
+    },
+
+    
     // vite: {
     //     server: {
     //       watch: {
