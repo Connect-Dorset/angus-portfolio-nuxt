@@ -12,8 +12,8 @@
  
  <script setup>
  var blogData = [
-       {name: "Travel Stories", description: "Tales from the road, surprises and amazing people.", image: "https://store.brth.uk/angus-port/GlacierNearHuarazPeru.jpg", link: "/blog/travel/stories", category: "Travel", date: "03/2022"},
-       
+       {name: "I Solo Travelled South America ", description: "The Adventure Begins", image: "https://store.brth.uk/angus-port/GlacierNearHuarazPeru.jpg", link: "/blog/travel/stories/001", category: "Travel", date: "03/2022"},
+]
  </script>
  
  <style scoped>
