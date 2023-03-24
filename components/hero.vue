@@ -4,11 +4,11 @@
       
     </div>
     <div class="absolute overflow-x-hidden mx-auto top-0 left-0 w-full h-full text-left  text-mine-shaft-800 flex flex-col justify-center items-center ">
-        <div class="mt-6 md:mt-0 w-5/6 md:w-5/12  text-center flex flex-col justify-center items-center">
+        <div class="mt-6 md:mt-4 w-5/6 md:w-5/12  text-center flex flex-col justify-center items-center">
             <div class="gap-3 mb-0 flex flex-col items-center ">
-              <img class="aspect-square rounded-full border-2 md:mb-3 border-mine-shaft-500"  width="20%" height="20%" src="https://store.brth.uk/angus-port/paronsquare.jpg" />          
+              <img class="aspect-square rounded-full border-2 md:mb-3 border-mine-shaft-500"  width="22.5%" height="22.5%" src="https://store.brth.uk/angus-port/paronsquare.jpg" />          
 
-              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-6xl font-bold"  >Welcome To My Personal Portfolio<span class="text-mine-shaft-500">.</span></h1>  
+              <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold"  >Welcome To My Personal Portfolio<span class="text-mine-shaft-500">.</span></h1>  
               <h2 class="text-md md:text-2xl font-semibold "  >Grab a coffee and have a look around<span class="text-mine-shaft-500">.</span></h2>
               <div class="w-full mt-2 flex flex-row justify-center gap-5 items-center" >
                   <NuxtLink to="#about"  class="bg-mine-shaft-400 text-soft-peach-100 font-semibold hover:cursor-pointer hover:bg-mine-shaft-300 rounded-xl py-2 px-2 md:px-4 md:py-3">Who Am I?</NuxtLink>
