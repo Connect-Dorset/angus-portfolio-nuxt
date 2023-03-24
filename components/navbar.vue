@@ -56,9 +56,12 @@
                     <NuxtLink to="/#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Blog</a></NuxtLink >
                     <NuxtLink to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Projects</a></NuxtLink >
                     <NuxtLink to="/#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Contact</a></NuxtLink >
-                    <a href="https://connectdorset.com" class="flex mb-5 bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
+                    <button>
+                        <a href="https://connectdorset.com" class="flex mb-5 bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
                        Connect Dorset
                     </a>
+                    </button>
+                        
                 </ul>
                 <button @click="navState = !navState" :class="navState ? 'flex' : 'hidden'" class="z-[99] h-1/2 w-full fixed top-1/2">
 

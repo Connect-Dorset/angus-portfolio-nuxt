@@ -40,7 +40,7 @@
   function sendMessage() {
   
     console.log(form);
-    fetch("https://mail.brth.uk:1234/api/v1/form/ag-port", {
+    fetch("https://mail.brth.uk:1234/api/v1/form/047b7e86-7d2b-4572-86d6-0d021e9643d3", {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
     mode: "cors", // no-cors, *cors, same-origin
     cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached

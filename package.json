@@ -5,9 +5,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
   },
   "devDependencies": {
+    "@nuxtjs/plausible": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.4.1",
     "nuxt": "^3.2.2"
   },
