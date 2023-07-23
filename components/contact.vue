@@ -19,7 +19,7 @@
               <input id="email" required type="email" v-model="form.email" class="col-span-2 px-3 py-2 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="hello@gmail.com"/>
               
               <label for="message" class="ml-3 sm:ml-0 justify-self-start sm:justify-self-center">Message:</label>
-              <textarea id="message" required type="text" v-model="form.message" class="col-span-2 h-40 resize-none px-3 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="Type your message here!"/>
+              <textarea id="message" required type="text" v-model="form.content" class="col-span-2 h-40 resize-none px-3 rounded-xl border-2 border-mine-shaft-300 focus:border-2 focus:border-mine-shaft-500" placeholder="Type your message here!"/>
             </div>
             <button type="submit" class="bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-3 py-2 lg:px-4 lg:py-2 rounded-xl mt-3">Send Message!</button>
             
@@ -34,12 +34,11 @@
   var form = {
     name: "",
     email: "",
-    message:  "",
-
+    content:  "",
+    subject: "New Enquiry - angusgaukroger.com"
   }
   function sendMessage() {
   
-    console.log(form);
     fetch("https://mail.brth.uk:1234/api/v1/form/047b7e86-7d2b-4572-86d6-0d021e9643d3", {
     method: "POST", // *GET, POST, PUT, DELETE, etc.
     mode: "cors", // no-cors, *cors, same-origin
@@ -63,7 +62,7 @@
       .finally(() => {
         form.name = ''
         form.email = ''
-        form.message = ''
+        form.content = ''
       });
 }
   </script>

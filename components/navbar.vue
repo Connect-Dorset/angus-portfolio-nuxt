@@ -15,17 +15,17 @@
                         <NuxtLink @mouseover="blogDropdown = true" to="/#home" class="hover:text-mine-shaft-300 hover:cursor-pointer">Home</NuxtLink >
                         <NuxtLink @mouseover="blogDropdown = true" to="/#about" class="hover:text-mine-shaft-300 hover:cursor-pointer">About</NuxtLink >
              
-                        <NuxtLink @mouseover="blogDropdown = false" to="/#blog"   class=" hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink >
+                        <!-- <NuxtLink @mouseover="blogDropdown = false" to="/#blog"   class=" hover:text-mine-shaft-300 hover:cursor-pointer">Blog</NuxtLink > -->
                
-                        <NuxtLink @mouseover="blogDropdown = true" to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer">Projects</NuxtLink >
+                        <!-- <NuxtLink @mouseover="blogDropdown = true" to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer">Projects</NuxtLink > -->
                         <NuxtLink @mouseover="blogDropdown = true" to="/#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer">Contact</NuxtLink >
                     </ul>
                      
 
                 </div>
-                <a @mouseover="blogDropdown = true" href="https://connectdorset.com" class="hidden md:flex  bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
-                   Connect Dorset
-                </a>
+                <NuxtLink mouseover="blogDropdown = true" to="/#contact" class="hidden md:flex  bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
+                   Get In Touch Now!
+                </NuxtLink>
                 <button @click="navState = !navState" class="flex md:hidden text-mine-shaft-100 mr-4">
                     <svg :class="navState ? 'hidden' : 'flex'" xmlns="http://www.w3.org/2000/svg" class=" h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="#e6e1e3"
                     stroke-width="2">
@@ -41,26 +41,26 @@
                 
             </nav>
             <!-- Blog Dropdown -->
-            <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed left-6 top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-40  z-[100]">
+            <!-- <div   :class="blogDropdown ? 'hidden' : 'flex top-20'" class="fixed left-6 top-0 w-full flex flex-row justify-center   text-soft-peach-100  h-40  z-[100]">
                 <ul @mouseover="blogDropdown=false" @mouseleave="blogDropdown=true" class=" w-28 px-3 h-full flex flex-col items-start justify-evenly bg-mine-shaft-600 border-mine-shaft-300   border-l-2 border-b-2 border-r-2 rounded-b-xl">
                     <NuxtLink @click="blogDropdown=true" to="/blog/travel" class="hover:text-mine-shaft-300 hover:cursor-pointer">Travel</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/lifestyle" class="hover:text-mine-shaft-300 hover:cursor-pointer">Lifestyle</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/software" class="hover:text-mine-shaft-300 hover:cursor-pointer">Software</NuxtLink >
                     <NuxtLink @click="blogDropdown=true" to="/blog/fitness" class="hover:text-mine-shaft-300 hover:cursor-pointer">Fitness</NuxtLink >
                 </ul>
-            </div>
+            </div> -->
             <div class="h-screen w-full md:hidden flex flex-col items-center">
                 <ul :class="navState ? 'flex' : 'hidden'" class="mt-20 py-4 text-soft-peach-100 h-1/2 w-full fixed z-[99] md:hidden flex-col bg-mine-shaft-600 justify-between items-center gap-2 font-semibold">
                     <NuxtLink to="/#home" class=" hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Home</a></NuxtLink >
                     <NuxtLink to="/#about" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">About</a></NuxtLink >
-                    <NuxtLink to="/#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Blog</a></NuxtLink >
-                    <NuxtLink to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Projects</a></NuxtLink >
+                    <!-- <NuxtLink to="/#blog" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Blog</a></NuxtLink > -->
+                    <!-- <NuxtLink to="/#projects" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Projects</a></NuxtLink > -->
                     <NuxtLink to="/#contact" class="hover:text-mine-shaft-300 hover:cursor-pointer"><a @click="navState = !navState">Contact</a></NuxtLink >
-                    <button>
+                    <!-- <button>
                         <a href="https://connectdorset.com" class="flex mb-5 bg-mine-shaft-400 hover:bg-mine-shaft-300 hover:cursor-pointer px-4 py-2 rounded-xl">
                        Connect Dorset
                     </a>
-                    </button>
+                    </button> -->
                         
                 </ul>
                 <button @click="navState = !navState" :class="navState ? 'flex' : 'hidden'" class="z-[99] h-1/2 w-full fixed top-1/2">
