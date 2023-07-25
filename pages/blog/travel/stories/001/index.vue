@@ -16,7 +16,7 @@
 
         </p>
         <p>
-            As soon as I had finished buying the tickets my head dropped into my hands as I processed the decision I had just made. I waited a while before going downstairs to tell my mum what I had done. She looked at me and started to cry, not the reaction I had anticipated.
+            As soon as I had finished buying the tickets my head dropped into my hands as I processed the decision I had just made. I waited a while before going downstairs to tell my mum what I had done.
         </p>
         <p>
             The months that followed this moment were a blur. I was granted sabbatical leave by my manager which gave me a 4-month window to travel (I had planned to quit my job if this leave was not granted. Luckily, it was!). During this time I  got vaccines, insurance, bags, clothes etc to prepare myself for the journey of a lifetime. My route was planned and as the 31st of May rolled around I was buzzing with excitement.
