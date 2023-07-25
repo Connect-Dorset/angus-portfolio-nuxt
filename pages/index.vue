@@ -1,8 +1,8 @@
 <template> 
   <Hero />  
   <About />
-  <Blog />
-  <Projects />
+  <!-- <Blog />
+  <Projects /> -->
   <Contact /> 
     
 </template>

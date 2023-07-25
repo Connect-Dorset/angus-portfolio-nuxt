@@ -2,9 +2,9 @@
     <div class="footer-social-icons py-1 text-center">
                 <ul class="social-icons">
                     <li><a href="mailto:agaukroger77@gmail.com" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-envelope"></i></a></li>
-                    <li><a href="tel:07775274549" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-phone"></i></a></li>
+                    <!-- <li><a href="tel:07775274549" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-phone"></i></a></li> -->
                     <li><a href="https://www.linkedin.com/in/angusgaukroger/" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://twitter.com/angus_gaukroger" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-twitter"></i></a></li>
+                    <!-- <li><a href="https://twitter.com/angus_gaukroger" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-twitter"></i></a></li> -->
                     <li><a href="https://github.com/AngusGaukrogerDev" target="_blank" class="social-icon hover:text-white"> <i class="fa fa-github"></i></a></li>
                 </ul>
             </div>

@@ -7,11 +7,10 @@
               Hey! I'm Angus. Thank you for visiting my portfolio site. I'm a 23 year old Software Developer with a passion for travel, fitness, music, language learning and new experiences.                
           </p>
           <p  class="text-lg md:text-sm lg:text-lg xl:text-lg">
-              I'm currently employed by Oasis Group as a Backend Software Developer. In my spare time I also run a website services business called Connect Dorset and teach English as a foreign language
-              on my platform InglesPalMundo.
+             I am currently available for Software contracting work (Outside IR35). Please contact me for more information!
           </p>
           <p  class="text-lg md:text-sm lg:text-lg xl:text-lg">
-              Outside of Software Development my hobbies include going to the gym, football, muay thai and music. I have also just started learning Portuguese as my third language.
+              Outside of Software Development my hobbies include going to the gym, football, muay thai and music.
           </p>
           <div class="w-full flex flex-row justify-evenly items-center gap-3">
             <a  target="blank" href="https://store.brth.uk/angus-port/AngusGaukroger-CV.pdf" class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">My CV</a>
