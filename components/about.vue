@@ -13,7 +13,7 @@
               Outside of Software Development my hobbies include going to the gym, football, muay thai and music.
           </p>
           <div class="w-full flex flex-row justify-evenly items-center gap-3">
-            <a  target="blank" href="https://store.brth.uk/angus-port/AngusGaukroger-CV.pdf" class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">My CV</a>
+            <!-- <a  target="blank" href="https://store.brth.uk/angus-port/AngusGaukroger-CV.pdf" class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">My CV</a> -->
             <RouterLink to="/#contact"  class="w-5/12 bg-mine-shaft-400 hover:bg-mine-shaft-300 text-soft-peach-100 hover:cursor-pointer px-2 py-1 lg:px-4 lg:py-2 rounded-xl mt-3">Contact Me</RouterLink>
 
           </div>
